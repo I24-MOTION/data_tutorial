@@ -6,13 +6,12 @@ import pytz
 
 def convert_to_cst_unix(date_string):
     """
-    Convert a date string in the format 'YYYY-MM-DD HH:MM' to a Unix timestamp in CST timezone.
+    Convert a date string in the format 'YYYY-MM-DD HH:MM' to a Unix timestamp in CST timezone (Nashville local time).
 
-    Args:
-    date_string (str): A date string in the format 'YYYY-MM-DD HH:MM'.
-
-    Returns:
-    int: Unix timestamp in CST timezone.
+    :param date_string: The date string in the format of 'YYYY-MM-DD HH:MM'
+    :type string
+    :return: Unix timestamp in CST
+    :rtype: float
     """
     # Parse the date string to a datetime object
     date_obj = datetime.datetime.strptime(date_string, '%Y-%m-%d %H:%M')
