@@ -97,6 +97,8 @@ def get_speed_mean_field(input_filename, dx, dt, starttime, endtime, lane_number
     :type starttime: int
     :param endtime: The end time for calculation (unix time).
     :type endtime: int
+    :param lane_number: the number of lane to be processed, lane1 is HOV lane, left most, lane 4 is the right most...
+    :type lane_number: int
 
     :return: A DataFrame containing the speed mean field with columns ['t', 'x', 'speed'], representing time, space, and the estimated speed
     mean field. The speed is quantified with the unit of miles per hour (mph), with the columns ['t','x','speed'], time, space and the
