@@ -3,3 +3,4 @@ ijson
 matplotlib
 notebook
 pandas
+scipy
