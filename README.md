@@ -41,6 +41,9 @@ The requirements for running the code in this tutorial are as follows:
 - Supporting Python libraries: Pandas, Numpy, Matplotlib, ijson, Jupyter-lab
 - A `requirements.txt` file is provided for creating a new Python environment for the tutorial if you wish. This is the officially supported method for running the tutorial, since the code was validated on this exact set of dependency versions. The process for creating a new environment is below.
 
+## Data access for this tutorial
+You will need to download the data file from i24motion.org/data using your account credentials.
+The data used in this tutorial is in `I24MOTION_PUBLIC_v1.0/trajectory_data_by_date/11-22-2022/data_demo`
 
 ## Clean installation
 
